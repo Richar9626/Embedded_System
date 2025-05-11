@@ -1,0 +1,290 @@
+source/router_eligible_device_app.o source/router_eligible_device_app.d: \
+ ../source/router_eligible_device_app.c \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/source/config.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/config/app_config.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/config/app_stack_config.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/stack_config.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/thread_stack_config.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/config/app_framework_config.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/config/app_mac_config.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/common/EmbeddedTypes.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/Shell/Interface/shell.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/Shell/Interface/shell_config.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/SerialManager/Interface/SerialManager.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/Messaging/Interface/Messaging.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/Lists/GenericList.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/MemManager/Interface/MemManager.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/Keyboard/Interface/Keyboard.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/RNG/Interface/RNG_Interface.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/ip_if_management.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/stack_config.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/ip.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/network_utils.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/OSAbstraction/Interface/fsl_os_abstraction.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/TimersManager/Interface/TimersManager.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/ip6.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/event_manager.h \
+ ../source/router_eligible_device_app.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/base/interface/shell_ip.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/Shell/Interface/shell_config.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/ip.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/ip6.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_types.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/base/interface/mac_abs_types.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/base/interface/nvm_adapter.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/stack_manager_if.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/sixlowpan_ib.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/base/interface/mac_abs_802154.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/base/interface/mac_abs_types.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/nd.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/nd_tables.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/FunctionLib/FunctionLib.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/ip_if_management.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_cfg.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_utils.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_network.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_types.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_attributes.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_meshcop.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_meshcop.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_network.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_app_callbacks.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_meshcop_mgmt.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/sockets.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/network_utils.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/udp.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/coap.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/session.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/dtls.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/dhcp6_client.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/dhcp6.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/dhcp6_server.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_attributes.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/common/app_init.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/LED/Interface/LED.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/board/board.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/drivers/fsl_gpio.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/drivers/fsl_common.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/fsl_device_registers.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/MKW41Z4.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/core_cm0plus.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/core_cmInstr.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/cmsis_gcc.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/core_cmFunc.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/system_MKW41Z4.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/MKW41Z4_features.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/drivers/fsl_clock.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/dns_client.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/dns_utils.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/config/app_thread_config.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/config/app_stack_config.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/version.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/common/app_led.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/common/app_init.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/common/app_temp_sensor.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/common/app_socket_utils.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/session.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/utilities/fsl_debug_console.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/drivers/fsl_common.h \
+ ../source/fsl_fxos.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/drivers/fsl_i2c.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/drivers/fsl_tpm.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/board/clock_config.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/board/pin_mux.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/drivers/fsl_port.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/common/app_event_monitoring.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_mgmt.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/base/interface/thci.h
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/source/config.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/config/app_config.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/config/app_stack_config.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/stack_config.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/thread_stack_config.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/config/app_framework_config.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/config/app_mac_config.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/common/EmbeddedTypes.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/Shell/Interface/shell.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/Shell/Interface/shell_config.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/SerialManager/Interface/SerialManager.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/Messaging/Interface/Messaging.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/Lists/GenericList.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/MemManager/Interface/MemManager.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/Keyboard/Interface/Keyboard.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/RNG/Interface/RNG_Interface.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/ip_if_management.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/stack_config.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/ip.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/network_utils.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/OSAbstraction/Interface/fsl_os_abstraction.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/TimersManager/Interface/TimersManager.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/ip6.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/event_manager.h:
+
+../source/router_eligible_device_app.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/base/interface/shell_ip.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/Shell/Interface/shell_config.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/ip.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/ip6.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_types.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/base/interface/mac_abs_types.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/base/interface/nvm_adapter.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/stack_manager_if.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/sixlowpan_ib.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/base/interface/mac_abs_802154.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/base/interface/mac_abs_types.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/nd.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/nd_tables.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/FunctionLib/FunctionLib.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/ip_if_management.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_cfg.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_utils.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_network.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_types.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_attributes.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_meshcop.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_meshcop.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_network.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_app_callbacks.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_meshcop_mgmt.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/sockets.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/network_utils.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/udp.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/coap.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/session.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/dtls.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/dhcp6_client.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/dhcp6.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/dhcp6_server.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_attributes.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/common/app_init.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/framework/LED/Interface/LED.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/board/board.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/drivers/fsl_gpio.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/drivers/fsl_common.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/fsl_device_registers.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/MKW41Z4.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/core_cm0plus.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/core_cmInstr.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/cmsis_gcc.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/core_cmFunc.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/system_MKW41Z4.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/CMSIS/MKW41Z4_features.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/drivers/fsl_clock.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/dns_client.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/dns_utils.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/config/app_thread_config.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/config/app_stack_config.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/version.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/common/app_led.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/common/app_init.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/common/app_temp_sensor.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/common/app_socket_utils.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/modules/session.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/utilities/fsl_debug_console.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/drivers/fsl_common.h:
+
+../source/fsl_fxos.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/drivers/fsl_i2c.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/drivers/fsl_tpm.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/board/clock_config.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/board/pin_mux.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/drivers/fsl_port.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/app/common/app_event_monitoring.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/core/interface/thread/thread_mgmt.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_leader/nwk_ip/base/interface/thci.h:

@@ -1,0 +1,14 @@
+core_cm4.h:1809:22:__NVIC_SetPriority	16	static
+fsl_clock.h:725:20:CLOCK_EnableClock	24	static
+fsl_gpio.h:191:20:GPIO_PortSet	16	static
+fsl_gpio.h:206:20:GPIO_PortClear	16	static
+fsl_port.h:374:20:PORT_SetPinMux	24	static
+T3_contextSwitch.c:87:6:rtosReloadSysTick	16	static
+T3_contextSwitch.c:93:6:PendSV_Handler	4	static
+T3_contextSwitch.c:102:6:SysTick_Handler	16	static
+T3_contextSwitch.c:144:6:task0	8	static
+T3_contextSwitch.c:154:6:task1	8	static
+T3_contextSwitch.c:164:6:task2	8	static
+T3_contextSwitch.c:174:6:task_idle	4	static
+T3_contextSwitch.c:182:6:rtosStart	8	static
+T3_contextSwitch.c:195:5:main	16	static

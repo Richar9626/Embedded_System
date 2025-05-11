@@ -1,0 +1,12 @@
+PIT.c:27:6:PIT_callback_init	16	static
+PIT.c:47:6:PIT0_IRQHandler	8	static
+PIT.c:59:6:PIT1_IRQHandler	8	static
+PIT.c:71:6:PIT2_IRQHandler	8	static
+PIT.c:83:6:PIT3_IRQHandler	8	static
+PIT.c:95:6:PIT_delay	24	static
+PIT.c:102:6:PIT_clock_gating	4	static
+PIT.c:109:9:PIT_get_interrupt_flag_status	16	static
+PIT.c:126:6:PIT_clear_interrupt_flag	16	static
+PIT.c:150:6:PIT_enable	4	static
+PIT.c:156:6:PIT_enable_interrupt	16	static
+PIT.c:162:6:PIT_stop	16	static

@@ -1,0 +1,5 @@
+Exam1.c:91:5:main	16	static
+Exam1.c:126:6:taskA	24	static
+Exam1.c:138:6:task1	32	static
+Exam1.c:174:6:task2	32	static
+Exam1.c:208:6:task3	40	static

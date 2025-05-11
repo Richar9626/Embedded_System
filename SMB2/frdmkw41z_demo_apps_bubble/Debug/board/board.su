@@ -1,0 +1,2 @@
+fsl_clock.h:612:20:CLOCK_SetLpuartClock	16	static
+board.c:45:6:BOARD_InitDebugConsole	16	static

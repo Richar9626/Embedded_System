@@ -1,0 +1,96 @@
+framework/OSAbstraction/Source/fsl_os_abstraction_free_rtos.o \
+ framework/OSAbstraction/Source/fsl_os_abstraction_free_rtos.d: \
+ ../framework/OSAbstraction/Source/fsl_os_abstraction_free_rtos.c \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/source/app_preinclude.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/common/EmbeddedTypes.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/OSAbstraction/Interface/fsl_os_abstraction.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/OSAbstraction/Interface/fsl_os_abstraction_free_rtos.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/FreeRTOS.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/source/FreeRTOSConfig.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/projdefs.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/portable.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/deprecated_definitions.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/portmacro.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/mpu_wrappers.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/semphr.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/queue.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/event_groups.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/timers.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/task.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/list.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/Lists/GenericList.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/drivers/fsl_common.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/fsl_device_registers.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/MKW41Z4.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/core_cm0plus.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/core_cmInstr.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/cmsis_gcc.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/core_cmFunc.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/system_MKW41Z4.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/MKW41Z4_features.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/drivers/fsl_clock.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/drivers/fsl_common.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/Panic/Interface/Panic.h
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/source/app_preinclude.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/common/EmbeddedTypes.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/OSAbstraction/Interface/fsl_os_abstraction.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/OSAbstraction/Interface/fsl_os_abstraction_free_rtos.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/FreeRTOS.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/source/FreeRTOSConfig.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/projdefs.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/portable.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/deprecated_definitions.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/portmacro.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/mpu_wrappers.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/semphr.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/queue.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/event_groups.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/timers.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/task.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/freertos/list.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/Lists/GenericList.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/drivers/fsl_common.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/fsl_device_registers.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/MKW41Z4.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/core_cm0plus.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/core_cmInstr.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/cmsis_gcc.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/core_cmFunc.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/system_MKW41Z4.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/MKW41Z4_features.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/drivers/fsl_clock.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/drivers/fsl_common.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/Panic/Interface/Panic.h:

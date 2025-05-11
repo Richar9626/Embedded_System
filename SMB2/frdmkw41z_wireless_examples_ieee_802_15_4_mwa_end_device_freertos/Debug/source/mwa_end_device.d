@@ -1,0 +1,113 @@
+source/mwa_end_device.o source/mwa_end_device.d: \
+ ../source/mwa_end_device.c \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/source/app_preinclude.h \
+ ../source/mwa_end_device.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/LED/Interface/LED.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/common/EmbeddedTypes.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/board/board.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/drivers/fsl_gpio.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/drivers/fsl_common.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/fsl_device_registers.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/MKW41Z4.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/core_cm0plus.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/core_cmInstr.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/cmsis_gcc.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/core_cmFunc.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/system_MKW41Z4.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/MKW41Z4_features.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/drivers/fsl_clock.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/Keyboard/Interface/Keyboard.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/SecLib/SecLib.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/SerialManager/Interface/SerialManager.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/RNG/Interface/RNG_Interface.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/Panic/Interface/Panic.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/MemManager/Interface/MemManager.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/Lists/GenericList.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/TimersManager/Interface/TimersManager.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/FunctionLib/FunctionLib.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/LowPower/Interface/MKW41Z/PWR_Interface.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/NVM/Interface/NVM_Interface.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/ieee_802.15.4/phy/interface/PhyInterface.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/ieee_802.15.4/phy/interface/PhyTypes.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/ieee_802.15.4/phy/interface/PhyMessages.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/Messaging/Interface/Messaging.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/ieee_802.15.4/mac/interface/MacInterface.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/ieee_802.15.4/mac/interface/MacTypes.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/ieee_802.15.4/mac/interface/MacFunctionalityDefines.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/ieee_802.15.4/mac/interface/MacMessages.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/source/app_preinclude.h:
+
+../source/mwa_end_device.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/LED/Interface/LED.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/common/EmbeddedTypes.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/board/board.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/drivers/fsl_gpio.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/drivers/fsl_common.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/fsl_device_registers.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/MKW41Z4.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/core_cm0plus.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/core_cmInstr.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/cmsis_gcc.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/core_cmFunc.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/system_MKW41Z4.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/CMSIS/MKW41Z4_features.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/drivers/fsl_clock.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/Keyboard/Interface/Keyboard.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/SecLib/SecLib.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/SerialManager/Interface/SerialManager.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/RNG/Interface/RNG_Interface.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/Panic/Interface/Panic.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/MemManager/Interface/MemManager.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/Lists/GenericList.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/TimersManager/Interface/TimersManager.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/FunctionLib/FunctionLib.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/LowPower/Interface/MKW41Z/PWR_Interface.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/NVM/Interface/NVM_Interface.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/ieee_802.15.4/phy/interface/PhyInterface.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/ieee_802.15.4/phy/interface/PhyTypes.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/ieee_802.15.4/phy/interface/PhyMessages.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/Messaging/Interface/Messaging.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/ieee_802.15.4/mac/interface/MacInterface.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/ieee_802.15.4/mac/interface/MacTypes.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/ieee_802.15.4/mac/interface/MacFunctionalityDefines.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/ieee_802.15.4/mac/interface/MacMessages.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_end_device_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h:

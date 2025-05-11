@@ -1,0 +1,13 @@
+core_cm4.h:1809:22:__NVIC_SetPriority	16	static
+fsl_clock.h:725:20:CLOCK_EnableClock	24	static
+fsl_port.h:271:20:PORT_SetPinConfig	32	static
+freertos_i2c.c:53:21:freertos_i2c_init	72	static
+freertos_i2c.c:129:21:freertos_i2c_master_transfer	48	static
+freertos_i2c.c:157:21:freertos_i2c_slave_transfer	24	static
+freertos_i2c.c:180:20:freertos_i2c_enable_port_clock	16	static
+freertos_i2c.c:202:27:freertos_i2c_get_port_base	24	static
+freertos_i2c.c:228:26:freertos_i2c_get_i2c_base	24	static
+freertos_i2c.c:245:13:fsl_i2c_callback_master	32	static
+freertos_i2c.c:259:13:fsl_i2c_callback_slave	32	static
+freertos_i2c.c:271:28:freertos_i2c_get_clk	24	static
+freertos_i2c.c:285:25:freertos_i2c_get_IRQhandler	24	static

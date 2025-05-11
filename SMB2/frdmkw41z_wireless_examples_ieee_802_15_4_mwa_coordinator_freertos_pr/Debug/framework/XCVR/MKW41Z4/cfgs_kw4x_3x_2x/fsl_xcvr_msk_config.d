@@ -1,0 +1,39 @@
+framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_msk_config.o \
+ framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_msk_config.d: \
+ ../framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_msk_config.c \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/source/app_preinclude.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/XCVR/MKW41Z4/fsl_xcvr.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/fsl_device_registers.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/MKW41Z4.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/core_cm0plus.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/core_cmInstr.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/cmsis_gcc.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/core_cmFunc.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/system_MKW41Z4.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/MKW41Z4_features.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/XCVR/MKW41Z4/fsl_xcvr_trim.h \
+ /Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/XCVR/MKW41Z4/fsl_xcvr.h
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/source/app_preinclude.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/XCVR/MKW41Z4/fsl_xcvr.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/fsl_device_registers.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/MKW41Z4.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/core_cm0plus.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/core_cmInstr.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/cmsis_gcc.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/core_cmFunc.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/system_MKW41Z4.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/CMSIS/MKW41Z4_features.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/XCVR/MKW41Z4/fsl_xcvr_trim.h:
+
+/Users/rjimenez/Documents/EMB2/frdmkw41z_wireless_examples_ieee_802_15_4_mwa_coordinator_freertos_pr/framework/XCVR/MKW41Z4/fsl_xcvr.h:

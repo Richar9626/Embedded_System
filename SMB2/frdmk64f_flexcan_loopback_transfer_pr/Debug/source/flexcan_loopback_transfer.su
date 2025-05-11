@@ -1,0 +1,5 @@
+flexcan_loopback_transfer.c:53:8:flexcan_callback	24	static
+flexcan_loopback_transfer.c:81:5:main	40	static
+flexcan_loopback_transfer.c:127:6:CAN_Rx_KA	24	static
+flexcan_loopback_transfer.c:156:6:CAN_Rx_Task	24	static
+flexcan_loopback_transfer.c:186:6:CAN_Tx_Task	24	static

@@ -1,0 +1,4 @@
+FsciAspCommands.c:114:6:fsciRegisterAsp	16	static
+FsciAspCommands.c:152:6:fsciRegisterAspToHost	16	static
+FsciAspCommands.c:261:6:AspSapMonitor	24	static
+FsciAspCommands.c:414:10:fsciGetAspInterfaceId	16	static

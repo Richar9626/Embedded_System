@@ -1,0 +1,5 @@
+Tarea7.c:47:5:main	16	static
+Tarea7.c:75:6:task_init	40	static
+Tarea7.c:100:6:data_receive	136	static
+Tarea7.c:181:6:task_send	56	static
+Tarea7.c:227:6:task_calibrate	160	static
