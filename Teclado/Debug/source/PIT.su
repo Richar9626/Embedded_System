@@ -1,0 +1,8 @@
+PIT.c:25:6:PIT0_IRQHandler	4	static
+PIT.c:33:6:PIT_delay	24	static
+PIT.c:40:6:PIT_clock_gating	4	static
+PIT.c:47:9:PIT_get_interrupt_flag_status	4	static
+PIT.c:52:6:PIT_clear_interrupt_flag	4	static
+PIT.c:58:6:PIT_enable	4	static
+PIT.c:64:6:PIT_enable_interrupt	16	static
+PIT.c:70:6:PIT_stop	16	static

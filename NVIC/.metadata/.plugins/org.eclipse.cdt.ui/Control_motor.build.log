@@ -1,0 +1,41 @@
+22:30:48 **** Incremental Build of configuration Debug for project Control_motor ****
+make -r -j3 all 
+Building file: ../source/GPIO.c
+Building file: ../source/PIT.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MK64FN1M0VLL12 -DCPU_MK64FN1M0VLL12_cm4 -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=0 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/board" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/source" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/drivers" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/utilities" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/component/serial_manager" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/component/uart" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/component/lists" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/CMSIS" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/device" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/GPIO.d" -MT"source/GPIO.o" -MT"source/GPIO.d" -o "source/GPIO.o" "../source/GPIO.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MK64FN1M0VLL12 -DCPU_MK64FN1M0VLL12_cm4 -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=0 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/board" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/source" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/drivers" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/utilities" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/component/serial_manager" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/component/uart" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/component/lists" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/CMSIS" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/device" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/PIT.d" -MT"source/PIT.o" -MT"source/PIT.d" -o "source/PIT.o" "../source/PIT.c"
+Building file: ../source/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MK64FN1M0VLL12 -DCPU_MK64FN1M0VLL12_cm4 -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=0 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/board" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/source" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/drivers" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/utilities" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/component/serial_manager" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/component/uart" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/component/lists" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/CMSIS" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/device" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/main.d" -MT"source/main.o" -MT"source/main.d" -o "source/main.o" "../source/main.c"
+Finished building: ../source/GPIO.c
+ 
+Building file: ../source/motor_control.c
+Finished building: ../source/PIT.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MK64FN1M0VLL12 -DCPU_MK64FN1M0VLL12_cm4 -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=0 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/board" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/source" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/drivers" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/utilities" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/component/serial_manager" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/component/uart" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/component/lists" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/CMSIS" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Control_motor/device" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/motor_control.d" -MT"source/motor_control.o" -MT"source/motor_control.d" -o "source/motor_control.o" "../source/motor_control.c"
+ 
+Finished building: ../source/main.c
+ 
+Finished building: ../source/motor_control.c
+ 
+Building target: Control_motor.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="Control_motor.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T Control_motor_Debug.ld -o "Control_motor.axf"  ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mk64f12.o  ./source/GPIO.o ./source/NVIC.o ./source/PIT.o ./source/main.o ./source/motor_control.o ./source/semihost_hardfault.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MK64F12.o  ./component/uart/fsl_adapter_uart.o  ./component/serial_manager/fsl_component_serial_manager.o ./component/serial_manager/fsl_component_serial_port_uart.o  ./component/lists/fsl_component_generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       11032 B         1 MB      1.05%
+      SRAM_UPPER:        8472 B       192 KB      4.31%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+        FLEX_RAM:          0 GB         4 KB      0.00%
+Finished building target: Control_motor.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "Control_motor.axf"; # arm-none-eabi-objcopy -v -O binary "Control_motor.axf" "Control_motor.bin" ; # checksum -p MK64FN1M0xxx12 -d "Control_motor.bin";
+   text	   data	    bss	    dec	    hex	filename
+  11032	      0	   8472	  19504	   4c30	Control_motor.axf
+ 
+
+22:30:50 Build Finished. 0 errors, 0 warnings. (took 1s.150ms)
+

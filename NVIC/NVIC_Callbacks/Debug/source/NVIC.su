@@ -1,0 +1,4 @@
+core_cm4.h:1679:22:__NVIC_EnableIRQ	16	static
+core_cm4.h:1807:22:__NVIC_SetPriority	16	static
+NVIC.c:15:6:NVIC_enable_interrupt_and_priotity	16	static
+NVIC.c:25:6:NVIC_set_basepri_threshold	24	static

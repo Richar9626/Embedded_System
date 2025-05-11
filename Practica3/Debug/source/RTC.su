@@ -1,0 +1,14 @@
+RTC.c:12:10:RTC_disable	8	static
+RTC.c:19:10:RTC_start	8	static
+RTC.c:25:10:RTC_set_sec	16	static
+RTC.c:31:10:RTC_set_min	16	static
+RTC.c:37:10:RTC_set_hour	16	static
+RTC.c:43:10:RTC_set_date	16	static
+RTC.c:48:10:RTC_set_month	16	static
+RTC.c:53:10:RTC_set_year	16	static
+RTC.c:59:10:RTC_get_sec	8	static
+RTC.c:70:10:RTC_get_min	8	static
+RTC.c:81:10:RTC_get_hour	8	static
+RTC.c:93:10:RTC_get_date	8	static
+RTC.c:104:10:RTC_get_month	8	static
+RTC.c:115:10:RTC_get_year	8	static

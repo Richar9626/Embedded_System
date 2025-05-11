@@ -1,0 +1,13 @@
+core_cm4.h:1679:22:__NVIC_EnableIRQ	16	static
+fsl_common.h:747:28:EnableIRQ	24	static
+fsl_uart.h:643:23:UART_ReadByte	16	static
+fsl_port.h:346:20:PORT_SetPinMux	24	static
+UART.c:37:6:UART0_RX_TX_IRQHandler	16	static
+UART.c:51:6:UART4_RX_TX_IRQHandler	16	static
+UART.c:66:6:UART_init	24	static
+UART.c:107:9:UART0_interrupt_status	4	static
+UART.c:112:6:UART0_flag_interrupt_off	4	static
+UART.c:117:9:UART0_pressed_key	4	static
+UART.c:124:6:UART_menu_print	16	static
+UART.c:135:6:UART_sequence_print	16	static
+UART.c:146:6:UART_values_print	16	static

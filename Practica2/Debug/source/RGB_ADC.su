@@ -1,0 +1,4 @@
+fsl_adc16.h:367:20:ADC16_EnableHardwareTrigger	16	static
+fsl_adc16.h:491:24:ADC16_GetChannelConversionValue	16	static
+RGB_ADC.c:29:6:RGB_ADC_init	8	static
+RGB_ADC.c:39:10:RGB_ADC_get	16	static

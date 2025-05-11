@@ -1,0 +1,26 @@
+19:06:59 **** Incremental Build of configuration Debug for project Examen1 ****
+make -r -j3 all 
+Building file: ../source/RGB_set.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MK64FN1M0VLL12 -DCPU_MK64FN1M0VLL12_cm4 -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=0 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/board" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/source" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/drivers" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/utilities" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/component/serial_manager" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/component/uart" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/component/lists" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/CMSIS" -I"/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/device" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/RGB_set.d" -MT"source/RGB_set.o" -MT"source/RGB_set.d" -o "source/RGB_set.o" "../source/RGB_set.c"
+Finished building: ../source/RGB_set.c
+ 
+Building target: Examen1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="Examen1.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T Examen1_Debug.ld -o "Examen1.axf"  ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mk64f12.o  ./source/GPIO.o ./source/NVIC.o ./source/PIT.o ./source/RGB_set.o ./source/main.o ./source/semihost_hardfault.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MK64F12.o  ./component/uart/fsl_adapter_uart.o  ./component/serial_manager/fsl_component_serial_manager.o ./component/serial_manager/fsl_component_serial_port_uart.o  ./component/lists/fsl_component_generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       12024 B         1 MB      1.15%
+      SRAM_UPPER:        8520 B       192 KB      4.33%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+        FLEX_RAM:          0 GB         4 KB      0.00%
+Finished building target: Examen1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "Examen1.axf"; # arm-none-eabi-objcopy -v -O binary "Examen1.axf" "Examen1.bin" ; # checksum -p MK64FN1M0xxx12 -d "Examen1.bin";
+   text	   data	    bss	    dec	    hex	filename
+  11992	     32	   8488	  20512	   5020	Examen1.axf
+ 
+19:07:03 **** Incremental Build of configuration Debug for project Examen1 ****
+make -r -j3 all 
+make: Nothing to be done for 'all'.

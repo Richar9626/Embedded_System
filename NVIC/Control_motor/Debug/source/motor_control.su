@@ -1,0 +1,5 @@
+motor_control.c:25:6:motor_init	16	static
+motor_control.c:59:6:motor_enable	8	static
+motor_control.c:113:9:get_state	4	static
+motor_control.c:118:6:motor_sequence_one_press	8	static
+motor_control.c:150:6:motor_sequence_two_press	8	static

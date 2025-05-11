@@ -1,0 +1,82 @@
+source/main.o source/main.d: ../source/main.c \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/board/board.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/board/clock_config.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/drivers/fsl_common.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/device/fsl_device_registers.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/device/MK64F12.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/CMSIS/core_cm4.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/CMSIS/cmsis_version.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/CMSIS/cmsis_compiler.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/CMSIS/cmsis_gcc.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/device/system_MK64F12.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/device/MK64F12_features.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/drivers/fsl_clock.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/drivers/fsl_common.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/drivers/fsl_gpio.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/drivers/fsl_port.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/board/peripherals.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/board/pin_mux.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/board/clock_config.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/device/MK64F12.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/utilities/fsl_debug_console.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/component/serial_manager/fsl_component_serial_manager.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/component/serial_manager/fsl_component_serial_port_uart.h \
+ /Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/component/uart/fsl_adapter_uart.h \
+ ../source/GPIO.h ../source/Bits.h ../source/NVIC.h ../source/PIT.h \
+ ../source/RGB_set.h
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/board/board.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/board/clock_config.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/drivers/fsl_common.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/device/fsl_device_registers.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/device/MK64F12.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/CMSIS/core_cm4.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/CMSIS/cmsis_version.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/CMSIS/cmsis_compiler.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/CMSIS/cmsis_gcc.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/device/system_MK64F12.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/device/MK64F12_features.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/drivers/fsl_clock.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/drivers/fsl_common.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/drivers/fsl_gpio.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/drivers/fsl_port.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/board/peripherals.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/board/pin_mux.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/board/clock_config.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/device/MK64F12.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/utilities/fsl_debug_console.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/component/serial_manager/fsl_component_serial_manager.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/component/serial_manager/fsl_component_serial_port_uart.h:
+
+/Users/rjimenez/Documents/PROJECTS/NVIC/Examen1/component/uart/fsl_adapter_uart.h:
+
+../source/GPIO.h:
+
+../source/Bits.h:
+
+../source/NVIC.h:
+
+../source/PIT.h:
+
+../source/RGB_set.h:

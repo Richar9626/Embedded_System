@@ -1,0 +1,2 @@
+Keypad4x4.c:42:6:keypad_init	8	static
+Keypad4x4.c:77:9:read_key	8	static

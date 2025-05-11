@@ -1,0 +1,15 @@
+GPIO.c:24:6:GPIO_callback_init	16	static
+GPIO.c:44:6:PORTB_IRQHandler	8	static
+GPIO.c:72:6:GPIO_clear_irq_status	16	static
+GPIO.c:81:9:GPIO_get_irq_status	24	static
+GPIO.c:95:6:GPIO_clear_interrupt	16	static
+GPIO.c:118:9:GPIO_clock_gating	16	static
+GPIO.c:145:9:GPIO_pin_control_register	16	static
+GPIO.c:173:6:GPIO_write_port	16	static
+GPIO.c:200:10:GPIO_read_port	24	static
+GPIO.c:228:9:GPIO_read_pin	32	static
+GPIO.c:268:6:GPIO_set_pin	24	static
+GPIO.c:299:6:GPIO_clear_pin	24	static
+GPIO.c:328:6:GPIO_toogle_pin	24	static
+GPIO.c:358:6:GPIO_data_direction_port	16	static
+GPIO.c:386:6:GPIO_data_direction_pin	24	static

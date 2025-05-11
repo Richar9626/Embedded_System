@@ -1,0 +1,6 @@
+RGB_sequence.c:23:6:RGB_sequence_add	16	static
+RGB_sequence.c:40:6:RGB_sequence_execute	16	static
+RGB_sequence.c:92:6:RGB_sequence_write_color	16	static
+RGB_sequence.c:131:6:RGB_sequence_reset	16	static
+RGB_sequence.c:144:6:RGB_sequence_state	16	static
+RGB_sequence.c:153:6:RGB_sequence_delay	8	static

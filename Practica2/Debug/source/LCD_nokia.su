@@ -1,0 +1,8 @@
+LCD_nokia.c:112:6:LCD_nokia_init	16	static
+LCD_nokia.c:155:6:LCD_nokia_bitmap	24	static
+LCD_nokia.c:163:6:LCD_nokia_write_byte	16	static
+LCD_nokia.c:182:6:LCD_nokia_send_char	24	static
+LCD_nokia.c:194:6:LCD_nokia_send_string	16	static
+LCD_nokia.c:199:6:LCD_nokia_clear	16	static
+LCD_nokia.c:206:6:LCD_nokia_goto_xy	16	static
+LCD_nokia.c:211:6:LCD_nokia_delay	16	static

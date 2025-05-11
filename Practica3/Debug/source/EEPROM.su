@@ -1,0 +1,3 @@
+EEPROM.c:16:10:EEPROM_WRITE	24	static
+EEPROM.c:32:10:EEPROM_get_string	232	static
+EEPROM.c:47:9:EEPROM_change_hex	24	static

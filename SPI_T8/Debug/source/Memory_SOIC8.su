@@ -1,0 +1,2 @@
+Memory_SOIC8.c:25:11:READ_IMAGE	24	static
+Memory_SOIC8.c:74:6:Memory_Read_byte	24	static

@@ -1,0 +1,45 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../source/Delay.c \
+../source/GPIO.c \
+../source/LCD_nokia.c \
+../source/LCD_nokia_images.c \
+../source/Memory_SOIC8.c \
+../source/SPI.c \
+../source/main.c \
+../source/semihost_hardfault.c 
+
+OBJS += \
+./source/Delay.o \
+./source/GPIO.o \
+./source/LCD_nokia.o \
+./source/LCD_nokia_images.o \
+./source/Memory_SOIC8.o \
+./source/SPI.o \
+./source/main.o \
+./source/semihost_hardfault.o 
+
+C_DEPS += \
+./source/Delay.d \
+./source/GPIO.d \
+./source/LCD_nokia.d \
+./source/LCD_nokia_images.d \
+./source/Memory_SOIC8.d \
+./source/SPI.d \
+./source/main.d \
+./source/semihost_hardfault.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+source/%.o: ../source/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: MCU C Compiler'
+	arm-none-eabi-gcc -D__REDLIB__ -DCPU_MK64FN1M0VLL12 -DCPU_MK64FN1M0VLL12_cm4 -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=0 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"/Users/rjimenez/Documents/PROJECTS/SPI_T8/board" -I"/Users/rjimenez/Documents/PROJECTS/SPI_T8/source" -I"/Users/rjimenez/Documents/PROJECTS/SPI_T8/drivers" -I"/Users/rjimenez/Documents/PROJECTS/SPI_T8/utilities" -I"/Users/rjimenez/Documents/PROJECTS/SPI_T8/component/serial_manager" -I"/Users/rjimenez/Documents/PROJECTS/SPI_T8/component/uart" -I"/Users/rjimenez/Documents/PROJECTS/SPI_T8/component/lists" -I"/Users/rjimenez/Documents/PROJECTS/SPI_T8/CMSIS" -I"/Users/rjimenez/Documents/PROJECTS/SPI_T8/device" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../$(@D)/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

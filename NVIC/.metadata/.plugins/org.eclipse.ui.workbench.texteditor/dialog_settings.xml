@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="blink"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="blink"/>
+			<item value="period_completed"/>
+			<item value="different_period_flag"/>
+			<item value="timer_sequence"/>
+			<item value="motor_state"/>
+			<item value="current_state"/>
+			<item value="delay_completion"/>
+			<item value="pit_inter_status"/>
+			<item value="last_pressed"/>
+			<item value="row"/>
+			<item value="column"/>
+			<item value="g_intr_status_flag"/>
+			<item value="timer_change"/>
+			<item value="timer_change_flag"/>
+			<item value="#define DELAY_3_sec (6) //set delay"/>
+		</list>
+		<list key="replacehistory">
+			<item value="g_different_period_flag"/>
+			<item value="g_timer_sequence"/>
+			<item value="g_motor_state"/>
+			<item value="g_current_state"/>
+			<item value="g_delay_completion"/>
+			<item value="g_pit_inter_status"/>
+			<item value="g_last_pressed"/>
+			<item value="g_row"/>
+			<item value="g_column"/>
+			<item value="g_PIT_intr_status_flag"/>
+			<item value="timer_sequence"/>
+			<item value="timer_change"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1082"/>
+		<item key="DIALOG_Y_ORIGIN" value="134"/>
+		<item key="DIALOG_WIDTH" value="316"/>
+		<item key="DIALOG_HEIGHT" value="429"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+</section>

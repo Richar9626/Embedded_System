@@ -1,0 +1,6 @@
+main.c:41:6:YELLOW_color	8	static
+main.c:49:6:RED_color	8	static
+main.c:57:6:PURPLE_color	8	static
+main.c:65:6:BLUE_color	8	static
+main.c:73:6:GREEN_color	8	static
+main.c:82:5:main	40	static

@@ -1,0 +1,12 @@
+FlexTimer.c:23:6:FTM2_IRQHandler	4	static
+FlexTimer.c:42:7:get_Frequency	4	static
+FlexTimer.c:47:6:Blue_FlexTimer_update_channel_value	16	static
+FlexTimer.c:53:6:Red_FlexTimer_update_channel_value	16	static
+FlexTimer.c:59:6:Green_FlexTimer_update_channel_value	16	static
+FlexTimer.c:66:6:FTM_clk	16	static
+FlexTimer.c:84:6:FTM_mode	16	static
+FlexTimer.c:103:6:FTM_modulo	16	static
+FlexTimer.c:121:6:FTM_CnSC	16	static
+FlexTimer.c:139:6:FTM_CnV	16	static
+FlexTimer.c:157:6:FTM_SC	16	static
+FlexTimer.c:176:6:FTM_init	16	static

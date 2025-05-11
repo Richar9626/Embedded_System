@@ -1,0 +1,5 @@
+RGB.c:24:6:RGB_init	16	static
+RGB.c:64:6:SW_init	16	static
+RGB.c:76:9:encender_LED	16	static
+RGB.c:101:9:apagar_LED	16	static
+RGB.c:126:6:delay	24	static

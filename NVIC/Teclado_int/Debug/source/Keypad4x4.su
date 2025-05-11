@@ -1,0 +1,4 @@
+Keypad4x4.c:48:6:keypad_init	8	static
+Keypad4x4.c:84:6:read_key	8	static
+Keypad4x4.c:109:9:get_last_key	8	static
+Keypad4x4.c:119:6:get_last_key_delay	8	static

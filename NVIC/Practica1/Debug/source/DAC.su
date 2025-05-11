@@ -1,0 +1,4 @@
+DAC.c:13:6:DAC_init	16	static
+DAC.c:19:6:DAC_clock_gating	16	static
+DAC.c:35:6:DAC_enable	16	static
+DAC.c:50:6:DAC_set_value	24	static

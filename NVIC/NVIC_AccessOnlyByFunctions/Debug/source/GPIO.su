@@ -1,0 +1,7 @@
+GPIO.c:20:6:PORTC_IRQHandler	8	static
+GPIO.c:28:6:PORTA_IRQHandler	8	static
+GPIO.c:35:6:GPIO_clear_irq_status	16	static
+GPIO.c:47:9:GPIO_get_irq_status	24	static
+GPIO.c:63:6:GPIO_clear_interrupt	16	static
+GPIO.c:86:9:GPIO_clock_gating	16	static
+GPIO.c:112:9:GPIO_pin_control_register	16	static

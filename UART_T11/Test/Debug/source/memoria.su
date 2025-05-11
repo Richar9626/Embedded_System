@@ -1,0 +1,2 @@
+memoria.c:25:11:READ_IMAGE	24	static
+memoria.c:74:6:Memory_Read_byte	24	static

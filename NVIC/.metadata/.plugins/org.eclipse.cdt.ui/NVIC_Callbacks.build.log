@@ -1,0 +1,7 @@
+17:40:37 **** Clean-only build of configuration Debug for project NVIC_Callbacks ****
+make -r -j3 clean 
+rm -rf  ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mk64f12.o  ./source/GPIO.o ./source/NVIC.o ./source/RGB.o ./source/main.o ./source/semihost_hardfault.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_dspi.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_rtc.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MK64F12.o  ./component/uart/uart_adapter.o  ./component/serial_manager/serial_manager.o ./component/serial_manager/serial_port_uart.o  ./component/lists/generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o  ./utilities/fsl_debug_console.d ./utilities/fsl_str.d  ./startup/startup_mk64f12.d  ./source/GPIO.d ./source/NVIC.d ./source/RGB.d ./source/main.d ./source/semihost_hardfault.d  ./drivers/fsl_adc16.d ./drivers/fsl_clock.d ./drivers/fsl_common.d ./drivers/fsl_dspi.d ./drivers/fsl_gpio.d ./drivers/fsl_i2c.d ./drivers/fsl_rtc.d ./drivers/fsl_smc.d ./drivers/fsl_uart.d  ./device/system_MK64F12.d  ./component/uart/uart_adapter.d  ./component/serial_manager/serial_manager.d ./component/serial_manager/serial_port_uart.d  ./component/lists/generic_list.d  ./board/board.d ./board/clock_config.d ./board/peripherals.d ./board/pin_mux.d  NVIC_Callbacks.axf
+ 
+
+17:40:37 Build Finished. 0 errors, 0 warnings. (took 268ms)
+

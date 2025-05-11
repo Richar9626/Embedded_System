@@ -1,0 +1,7 @@
+RGB_set.c:14:6:RGB_set_GREEN	8	static
+RGB_set.c:22:6:RGB_set_BLUE	8	static
+RGB_set.c:30:6:RGB_set_PURPLE	8	static
+RGB_set.c:38:6:RGB_set_RED	8	static
+RGB_set.c:46:6:RGB_set_YELLOW	8	static
+RGB_set.c:54:6:RGB_set_WHITE	8	static
+RGB_set.c:62:6:RGB_set_OFF	8	static

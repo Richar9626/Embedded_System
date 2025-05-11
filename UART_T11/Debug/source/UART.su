@@ -1,0 +1,17 @@
+core_cm4.h:1679:22:__NVIC_EnableIRQ	16	static
+fsl_common.h:747:28:EnableIRQ	24	static
+fsl_uart.h:643:23:UART_ReadByte	16	static
+UART.c:34:6:UART0_RX_TX_IRQHandler	16	static
+UART.c:48:6:UART4_RX_TX_IRQHandler	16	static
+UART.c:63:6:UART0_init	24	static
+UART.c:89:6:UART4_init	24	static
+UART.c:115:9:UART0_interrupt_status	4	static
+UART.c:120:6:UART0_flag_interrupt_off	4	static
+UART.c:125:9:UART0_pressed_key	4	static
+UART.c:130:9:UART4_interrupt_status	4	static
+UART.c:135:6:UART4_flag_interrupt_off	4	static
+UART.c:140:9:UART4_pressed_key	4	static
+UART.c:145:9:UART_status_read_write	16	static
+UART.c:164:6:UART_menu_print	16	static
+UART.c:175:6:UART_RGB_MANUAL_print	16	static
+UART.c:185:6:UART_RGB_SEQUENCE_print	16	static

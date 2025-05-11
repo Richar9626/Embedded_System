@@ -1,0 +1,7 @@
+Wave_gen.c:57:6:square_wave	8	static
+Wave_gen.c:68:6:sine_wave	8	static
+Wave_gen.c:80:6:triangle_wave	8	static
+Wave_gen.c:90:6:wave_mngr	8	static
+Wave_gen.c:123:6:wave_gen_password	8	static
+Wave_gen.c:142:6:wave_gen_set_flag	16	static
+Wave_gen.c:148:6:wave_gen_set_state	16	static

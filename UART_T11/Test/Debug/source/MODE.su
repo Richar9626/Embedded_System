@@ -1,0 +1,7 @@
+MODE.c:21:6:MODE_init	8	static
+MODE.c:48:6:MODE_menu	16	static
+MODE.c:68:6:MODE_read_time	16	static
+MODE.c:92:6:MODE_print_time	16	static
+MODE.c:106:6:MODE_user_time	16	static
+MODE.c:142:6:MODE_save_time	16	static
+MODE.c:152:6:MODE_set_time	8	static

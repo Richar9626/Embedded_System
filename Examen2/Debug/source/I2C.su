@@ -1,0 +1,6 @@
+fsl_clock.h:668:20:CLOCK_EnableClock	24	static
+fsl_port.h:243:20:PORT_SetPinConfig	32	static
+I2C.c:18:6:I2C_init	16	static
+I2C.c:65:6:I2C_write	32	static
+I2C.c:82:9:I2C_read	24	static
+I2C.c:99:10:I2C_get_status_transfer	4	static

@@ -1,0 +1,11 @@
+RGB_set.c:35:6:RGB_set_GREEN	8	static
+RGB_set.c:43:6:RGB_set_BLUE	8	static
+RGB_set.c:51:6:RGB_set_PURPLE	8	static
+RGB_set.c:59:6:RGB_set_RED	8	static
+RGB_set.c:67:6:RGB_set_YELLOW	8	static
+RGB_set.c:75:6:RGB_set_WHITE	8	static
+RGB_set.c:82:6:RGB_set_CIAN	8	static
+RGB_set.c:90:6:RGB_set_OFF	8	static
+RGB_set.c:99:6:PH_Scale_color	24	static
+RGB_set.c:155:6:init_color_change	8	static
+RGB_set.c:176:6:led_delay	8	static

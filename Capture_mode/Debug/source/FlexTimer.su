@@ -1,0 +1,3 @@
+FlexTimer.c:22:6:FTM2_IRQHandler	4	static
+FlexTimer.c:39:7:get_Frequency	4	static
+FlexTimer.c:44:6:FlexTimer_Init	4	static
